@@ -1,0 +1,72 @@
+```markdown
+# Importing VSCode Theme to Zed Editor
+
+## Open Terminal
+Open up your terminal.
+
+## Navigate to VSCode Extensions
+Type the following command to navigate to the VSCode extensions directory:
+```bash
+cd ~/.vscode/extensions
+```
+
+## Locate Theme
+Look for the theme name that was listed in your VSCode editor, let's say it's called "liviuschera.noctis-10.43.1".
+
+## Navigate to Theme Directory
+Type the following command to navigate to the theme directory:
+```bash
+cd liviuschera.noctis-10.43.1
+```
+
+## Access Themes
+Then, navigate to the themes directory within "liviuschera.noctis-10.43.1":
+```bash
+cd themes
+```
+
+## Choose Theme
+It will then present a list of .json files. Choose the theme you want to open by typing:
+```bash
+open . name.json
+```
+It will by default open the JSON in your default compiler, and you will copy all the JSON.
+
+## Create New Terminal
+Open a new terminal.
+
+## Navigate to Zed Themes
+Type the following command to navigate to the Zed themes directory:
+```bash
+cd ~/.config/zed/themes
+```
+
+## Create New Theme File
+Create a new name.json by typing:
+```bash
+touch themename.json
+```
+
+## Copy JSON
+Copy the JSON from the previous default compiler.
+
+## Edit JSON File
+Type the following command to edit the new theme JSON file using nano:
+```bash
+nano themename.json
+```
+
+## Paste JSON
+Paste all the JSON into the file.
+
+## Save File
+Save the file by pressing CONTROL + O and then CONTROL + X to exit nano.
+
+## Restart Zed
+Restart Zed editor. Under the menu, look for the select themes section, type the name of the added theme, and select it.
+
+## Finished
+That's it! You have successfully imported a VSCode theme to the Zed editor.
+
+This markdown documentation provides a clear and organized guide for importing a VSCode theme to Zed editor.
+```
